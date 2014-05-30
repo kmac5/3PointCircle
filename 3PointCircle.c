@@ -22,7 +22,7 @@ Kevin MacPhail	08/19/03
 #include <lwcomlib.h>
 #include <com_math.h>
 #include <com_vecmatquat.h>
-#include <pppcir.h>
+#include "pppcir.h"
 
 /* some matrix shorthand */
 #define m00  m[ 0 ][ 0 ]
@@ -83,7 +83,7 @@ int get_user( LWXPanelFuncs *xpanf, int *sides)
       { 0 }
    };
    LWXPanelHint hint[] = {
-	   XpLABEL( 0, "3PointCircle v1.1" ),
+	   XpLABEL( 0, "3PointCircle v1.1.0" ),
 	   XpEND
    };
 
